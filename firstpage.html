@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="firstpage.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Employee</title>
+</head>
+<body>
+
+    <aside>
+        <div class="logo">
+            <a href="https://keyvalue.systems/">
+                <img src="kv logo.png" alt="Keyvalue logo">
+                </a> 
+            </div>  
+        <div class="navigation">
+                <a class="navigation" href="" style="text-decoration: none; font-size: 20px;">
+                    <img src="List.png" alt="List logo" style="background-color:white ;border-radius: 50%; width:35px;height:35px;margin-right: 10px;">
+                    Employee list
+                </a>
+            </div>
+        
+    </aside>
+
+    <main>
+        <div class="header">
+            <h1>Create Employee</h1>
+        </div>
+
+        <form id="forms" class="flex-container" name="form1" action="#" style="margin-right: 220px;">
+            <div style="padding-left: 20px;">
+                <div class="form-input">
+                    <label>Employee Name</label><br>
+                    <input type="text" placeholder="Enter the employee name"><br>
+                </div>
+
+                <div class="form-input">
+                    <label for="role">Role</label><br>
+                    <select style="background-color:#ffffff">
+                        <option value="Software Engineer">Software Engineer</option>
+                        <option value="Data Scientist">Data Scientist</option>
+                    </select><br />
+                </div>
+
+
+                <div class="form-input">
+                    <label for="address">Address</label><br>
+                    <input type="text" placeholder="Enter the employee address"><br>
+                    
+                </div>
+                <div class="footer">
+                    <button class="btn1" type="submit">Create</button>
+                    <button class="btn2" type="button">Cancel</button>
+                </div>
+            </div>
+
+            <div style="padding-left: 80px;">
+                <div class="form-input">
+                    <label for="eid">Employee ID</label><br>
+                    <input type="text" placeholder="Enter the employee Id"><br>
+                </div>
+
+                <div class="form-input">
+                    <label for="status">Status</label><br>
+                    <select id="status" name="status" style="background-color: #ffffff">
+                        <option value="active" style="color:#f8f8f8">Active</option>
+                        <option value="inactive">Inactive</option>
+                    </select><br />
+                </div>
+
+                <div class="form-input">
+                    <label for="idfile">Upload ID Proof</label><br>
+                    <input type="file" id="idfile" name="idfile"><br>
+                   
+                </div>
+            </div>
+
+            <div style="padding-left: 80px; margin-right: 20px;">
+                <div class="form-input">
+                    <label for="jdate">Joining Date</label><br>
+                    <input type="text" placeholder="Enter the employee joining date" ><br>
+                </div>
+
+                <div class="form-input">
+                    <label for="exp">Experience</label><br>
+                    <input type="text" placeholder="Enter the employee experience in years"><br>
+                </div>
+
+                <div>
+                    <label for="email">Email</label><br>
+                    <input type='text' name='text1'/>
+                </div>
+            </div>
+        </form>
+
+    </main>
+
+</body>
