@@ -19,7 +19,7 @@ aside{
     font-size: 18px;
     margin-top: 20px;
     font-family: 'Source Sans Pro', sans-serif;
-    padding-right:20px; padding-left: 10px;
+    padding-right:20px; padding-left: 10x;
     padding-top:15px; padding-bottom:20px; 
     border-top: 20px;
     border-radius:1px; 
@@ -61,16 +61,20 @@ form{
 
 }
 
-input[type=text],
-input[type=file], select {
-    width: 100%;
+input[type=text], 
+input[type=file],select {
+    flex:1;
+    width: 350px;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
     border: 1px solid #ccc;
+    background-color: #f5f5f5;
     border-radius: 4px;
     box-sizing: border-box;
   }
+
+
 
   .form-input{
     flex:1;  
@@ -80,11 +84,44 @@ input[type=file], select {
 }
 
 label {
+    flex:1;
     height: 12px;
     color:#000000;
     font-size: 17px;
     font-weight: 500;
+    width:300px;
 }
+.browse {
+    width: 100px;
+    border: 1px solid #cecece;
+    font-weight: 600;
+    font-size: 12px;
+    background-color: #f5f5f5;
+    height: 80%;
+    border-radius: 5px;
+    color: #8a8a8a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  .choose-file {
+    padding: 0 10px 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #8a8a8a;
+    font-weight: 600;
+    font-size: 12px;
+    width: 101%;
+    height: 42px;
+    border-radius: 4px;
+    border: 0.5px solid #cecece;
+    background-color: #f5f5f5;
+    transform: translateY(-10px);
+  }
+
 
 .footer {
     display:flex;
